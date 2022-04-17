@@ -55,7 +55,7 @@ for ( var i=0; names.length; i++) {
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-  if (names[i].includes("j")) {
+  if (names[i].indexOf('J')) {
     GoodBye.speak(names[i]);
   } else {
     Hello.speak(names[i]);
